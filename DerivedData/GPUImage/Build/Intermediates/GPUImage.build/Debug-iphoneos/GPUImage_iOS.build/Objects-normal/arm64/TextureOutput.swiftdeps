@@ -1,0 +1,77 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextureOutput"
+provides-nominal:
+- "C8GPUImage13TextureOutput"
+provides-member:
+- ["C8GPUImage13TextureOutput", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "FloatLiteralType"
+- "Framebuffer"
+- "GLuint"
+- "ImageConsumer"
+- "IntegerLiteralType"
+- "SourceContainer"
+- "TextureOutput"
+- "UInt"
+depends-member:
+- ["Ps9AnyObject", "SourceContainer"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "maximumInputs"]
+- ["Ps9AnyObject", "newFramebufferAvailable"]
+- !private ["Ps9AnyObject", "newTextureAvailableCallback"]
+- ["Ps9AnyObject", "sources"]
+- !private ["Ps9AnyObject", "texture"]
+- !private ["Ps9AnyObject", "unlock"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GPUImage11Framebuffer", "texture"]
+- !private ["C8GPUImage11Framebuffer", "unlock"]
+- ["P8GPUImage13ImageConsumer", "SourceContainer"]
+- ["P8GPUImage13ImageConsumer", "maximumInputs"]
+- ["P8GPUImage13ImageConsumer", "newFramebufferAvailable"]
+- !private ["P8GPUImage13ImageConsumer", "newTextureAvailableCallback"]
+- ["P8GPUImage13ImageConsumer", "sources"]
+- ["P8GPUImage13ImageConsumer", ""]
+- ["C8GPUImage15SourceContainer", "init"]
+- ["C8GPUImage13TextureOutput", "Framebuffer"]
+- ["C8GPUImage13TextureOutput", "GLuint"]
+- ["C8GPUImage13TextureOutput", "SourceContainer"]
+- ["C8GPUImage13TextureOutput", "UInt"]
+- ["C8GPUImage13TextureOutput", "deinit"]
+- ["C8GPUImage13TextureOutput", "init"]
+- ["C8GPUImage13TextureOutput", "maximumInputs"]
+- ["C8GPUImage13TextureOutput", "newFramebufferAvailable"]
+- ["C8GPUImage13TextureOutput", "newTextureAvailableCallback"]
+- ["C8GPUImage13TextureOutput", "sources"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8GPUImage11Framebuffer"
+- "P8GPUImage13ImageConsumer"
+- "C8GPUImage15SourceContainer"
+- "C8GPUImage13TextureOutput"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "a1921237fff280d81cd126d58cd0269e"

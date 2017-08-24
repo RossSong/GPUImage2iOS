@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MotionDetector"
+provides-nominal:
+- "C8GPUImage14MotionDetector"
+provides-member:
+- ["C8GPUImage14MotionDetector", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-->"
+- !private "/"
+- "AssignmentPrecedence"
+- "AverageColorExtractor"
+- "BasicOperation"
+- "Float"
+- "LowPassFilter"
+- "MotionComparisonFragmentShader"
+- "MotionDetector"
+- "OperationGroup"
+- "Position"
+depends-member:
+- ["Ps9AnyObject", "AverageColorExtractor"]
+- ["Ps9AnyObject", "BasicOperation"]
+- ["Ps9AnyObject", "LowPassFilter"]
+- ["Ps9AnyObject", "MotionComparisonFragmentShader"]
+- !private ["Ps9AnyObject", "Position"]
+- !private ["Ps9AnyObject", "averageColorExtractor"]
+- !private ["Ps9AnyObject", "configureGroup"]
+- !private ["Ps9AnyObject", "extractedColorCallback"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lowPassFilter"]
+- !private ["Ps9AnyObject", "lowPassStrength"]
+- !private ["Ps9AnyObject", "motionComparison"]
+- !private ["Ps9AnyObject", "motionDetectedCallback"]
+- !private ["Ps9AnyObject", "strength"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GPUImage21AverageColorExtractor", "deinit"]
+- !private ["C8GPUImage21AverageColorExtractor", "extractedColorCallback"]
+- ["C8GPUImage21AverageColorExtractor", "init"]
+- !private ["C8GPUImage14BasicOperation", "deinit"]
+- !private ["C8GPUImage14BasicOperation", "extractedColorCallback"]
+- ["C8GPUImage14BasicOperation", "init"]
+- ["Ps7CVarArg", "init"]
+- !private ["V8GPUImage5Color", "alphaComponent"]
+- !private ["V8GPUImage5Color", "greenComponent"]
+- !private ["V8GPUImage5Color", "redComponent"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["P8GPUImage13ImageConsumer", "AverageColorExtractor"]
+- ["P8GPUImage13ImageConsumer", "BasicOperation"]
+- ["P8GPUImage13ImageConsumer", "LowPassFilter"]
+- ["P8GPUImage13ImageConsumer", "MotionComparisonFragmentShader"]
+- !private ["P8GPUImage13ImageConsumer", "Position"]
+- !private ["P8GPUImage13ImageConsumer", "averageColorExtractor"]
+- !private ["P8GPUImage13ImageConsumer", "configureGroup"]
+- !private ["P8GPUImage13ImageConsumer", "extractedColorCallback"]
+- ["P8GPUImage13ImageConsumer", "init"]
+- !private ["P8GPUImage13ImageConsumer", "lowPassFilter"]
+- !private ["P8GPUImage13ImageConsumer", "lowPassStrength"]
+- !private ["P8GPUImage13ImageConsumer", "motionComparison"]
+- !private ["P8GPUImage13ImageConsumer", "motionDetectedCallback"]
+- !private ["P8GPUImage13ImageConsumer", "strength"]
+- ["P8GPUImage13ImageConsumer", ""]
+- ["P8GPUImage24ImageProcessingOperation", "AverageColorExtractor"]
+- ["P8GPUImage24ImageProcessingOperation", "BasicOperation"]
+- ["P8GPUImage24ImageProcessingOperation", "LowPassFilter"]
+- ["P8GPUImage24ImageProcessingOperation", "MotionComparisonFragmentShader"]
+- !private ["P8GPUImage24ImageProcessingOperation", "Position"]
+- !private ["P8GPUImage24ImageProcessingOperation", "averageColorExtractor"]
+- !private ["P8GPUImage24ImageProcessingOperation", "configureGroup"]
+- !private ["P8GPUImage24ImageProcessingOperation", "extractedColorCallback"]
+- ["P8GPUImage24ImageProcessingOperation", "init"]
+- !private ["P8GPUImage24ImageProcessingOperation", "lowPassFilter"]
+- !private ["P8GPUImage24ImageProcessingOperation", "lowPassStrength"]
+- !private ["P8GPUImage24ImageProcessingOperation", "motionComparison"]
+- !private ["P8GPUImage24ImageProcessingOperation", "motionDetectedCallback"]
+- !private ["P8GPUImage24ImageProcessingOperation", "strength"]
+- ["P8GPUImage24ImageProcessingOperation", ""]
+- !private ["C8GPUImage10ImageRelay", "deinit"]
+- ["P8GPUImage11ImageSource", "AverageColorExtractor"]
+- ["P8GPUImage11ImageSource", "BasicOperation"]
+- ["P8GPUImage11ImageSource", "LowPassFilter"]
+- ["P8GPUImage11ImageSource", "MotionComparisonFragmentShader"]
+- !private ["P8GPUImage11ImageSource", "Position"]
+- !private ["P8GPUImage11ImageSource", "averageColorExtractor"]
+- !private ["P8GPUImage11ImageSource", "configureGroup"]
+- !private ["P8GPUImage11ImageSource", "extractedColorCallback"]
+- ["P8GPUImage11ImageSource", "init"]
+- !private ["P8GPUImage11ImageSource", "lowPassFilter"]
+- !private ["P8GPUImage11ImageSource", "lowPassStrength"]
+- !private ["P8GPUImage11ImageSource", "motionComparison"]
+- !private ["P8GPUImage11ImageSource", "motionDetectedCallback"]
+- !private ["P8GPUImage11ImageSource", "strength"]
+- ["P8GPUImage11ImageSource", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["C8GPUImage13LowPassFilter", "deinit"]
+- ["C8GPUImage13LowPassFilter", "init"]
+- !private ["C8GPUImage13LowPassFilter", "strength"]
+- ["Ps10MirrorPath", "init"]
+- ["C8GPUImage14MotionDetector", "AverageColorExtractor"]
+- ["C8GPUImage14MotionDetector", "BasicOperation"]
+- ["C8GPUImage14MotionDetector", "Float"]
+- ["C8GPUImage14MotionDetector", "LowPassFilter"]
+- ["C8GPUImage14MotionDetector", "MotionComparisonFragmentShader"]
+- ["C8GPUImage14MotionDetector", "Position"]
+- ["C8GPUImage14MotionDetector", "averageColorExtractor"]
+- !private ["C8GPUImage14MotionDetector", "configureGroup"]
+- ["C8GPUImage14MotionDetector", "deinit"]
+- ["C8GPUImage14MotionDetector", "init"]
+- ["C8GPUImage14MotionDetector", "lowPassFilter"]
+- ["C8GPUImage14MotionDetector", "lowPassStrength"]
+- ["C8GPUImage14MotionDetector", "motionComparison"]
+- ["C8GPUImage14MotionDetector", "motionDetectedCallback"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["C8GPUImage14OperationGroup", "AverageColorExtractor"]
+- ["C8GPUImage14OperationGroup", "BasicOperation"]
+- ["C8GPUImage14OperationGroup", "Float"]
+- ["C8GPUImage14OperationGroup", "LowPassFilter"]
+- ["C8GPUImage14OperationGroup", "MotionComparisonFragmentShader"]
+- ["C8GPUImage14OperationGroup", "Position"]
+- ["C8GPUImage14OperationGroup", "averageColorExtractor"]
+- !private ["C8GPUImage14OperationGroup", "configureGroup"]
+- ["C8GPUImage14OperationGroup", "init"]
+- ["C8GPUImage14OperationGroup", "lowPassFilter"]
+- ["C8GPUImage14OperationGroup", "lowPassStrength"]
+- ["C8GPUImage14OperationGroup", "motionComparison"]
+- ["C8GPUImage14OperationGroup", "motionDetectedCallback"]
+- !private ["C8GPUImage14OperationGroup", "strength"]
+- ["C8GPUImage14OperationGroup", ""]
+- !private ["V8GPUImage8Position", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8GPUImage21AverageColorExtractor"
+- "C8GPUImage14BasicOperation"
+- "Ps7CVarArg"
+- !private "V8GPUImage5Color"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P8GPUImage13ImageConsumer"
+- "P8GPUImage24ImageProcessingOperation"
+- !private "C8GPUImage10ImageRelay"
+- "P8GPUImage11ImageSource"
+- "Ps25LosslessStringConvertible"
+- "C8GPUImage13LowPassFilter"
+- "Ps10MirrorPath"
+- "C8GPUImage14MotionDetector"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C8GPUImage14OperationGroup"
+- !private "V8GPUImage8Position"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "feb4c1dfdff76869b233b67b0dacc3a0"

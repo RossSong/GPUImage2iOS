@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ross/Downloads/GPUImage2-master/framework/DerivedData/GPUImage/Build/Products/Debug/GPUImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GPUImage-Swift.h",
+          'external-contents': "/Users/ross/Downloads/GPUImage2-master/framework/DerivedData/GPUImage/Build/Products/Debug/GPUImage.framework/Versions/A/Headers/GPUImage-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ross/Downloads/GPUImage2-master/framework/DerivedData/GPUImage/Build/Products/Debug/GPUImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ross/Downloads/GPUImage2-master/framework/DerivedData/GPUImage/Build/Intermediates/GPUImage.build/Debug/GPUImage_macOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

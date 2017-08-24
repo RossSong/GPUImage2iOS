@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AverageLuminanceThreshold"
+provides-nominal:
+- "C8GPUImage25AverageLuminanceThreshold"
+provides-member:
+- ["C8GPUImage25AverageLuminanceThreshold", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "-->"
+- !private "??"
+- "AssignmentPrecedence"
+- "AverageLuminanceExtractor"
+- "AverageLuminanceThreshold"
+- "Float"
+- "FloatLiteralType"
+- "LuminanceThreshold"
+- "OperationGroup"
+depends-member:
+- ["Ps9AnyObject", "AverageLuminanceExtractor"]
+- ["Ps9AnyObject", "LuminanceThreshold"]
+- !private ["Ps9AnyObject", "averageLuminance"]
+- !private ["Ps9AnyObject", "configureGroup"]
+- !private ["Ps9AnyObject", "extractedLuminanceCallback"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "luminanceThreshold"]
+- !private ["Ps9AnyObject", "threshold"]
+- !private ["Ps9AnyObject", "thresholdMultiplier"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GPUImage25AverageLuminanceExtractor", "deinit"]
+- !private ["C8GPUImage25AverageLuminanceExtractor", "extractedLuminanceCallback"]
+- ["C8GPUImage25AverageLuminanceExtractor", "init"]
+- ["C8GPUImage25AverageLuminanceThreshold", "AverageLuminanceExtractor"]
+- ["C8GPUImage25AverageLuminanceThreshold", "Float"]
+- ["C8GPUImage25AverageLuminanceThreshold", "LuminanceThreshold"]
+- ["C8GPUImage25AverageLuminanceThreshold", "averageLuminance"]
+- !private ["C8GPUImage25AverageLuminanceThreshold", "configureGroup"]
+- ["C8GPUImage25AverageLuminanceThreshold", "deinit"]
+- ["C8GPUImage25AverageLuminanceThreshold", "init"]
+- ["C8GPUImage25AverageLuminanceThreshold", "luminanceThreshold"]
+- ["C8GPUImage25AverageLuminanceThreshold", "thresholdMultiplier"]
+- !private ["C8GPUImage14BasicOperation", "extractedLuminanceCallback"]
+- !private ["C8GPUImage14BasicOperation", "threshold"]
+- ["P8GPUImage13ImageConsumer", "AverageLuminanceExtractor"]
+- ["P8GPUImage13ImageConsumer", "LuminanceThreshold"]
+- !private ["P8GPUImage13ImageConsumer", "averageLuminance"]
+- !private ["P8GPUImage13ImageConsumer", "configureGroup"]
+- !private ["P8GPUImage13ImageConsumer", "extractedLuminanceCallback"]
+- ["P8GPUImage13ImageConsumer", "init"]
+- !private ["P8GPUImage13ImageConsumer", "luminanceThreshold"]
+- !private ["P8GPUImage13ImageConsumer", "threshold"]
+- !private ["P8GPUImage13ImageConsumer", "thresholdMultiplier"]
+- ["P8GPUImage13ImageConsumer", ""]
+- ["P8GPUImage24ImageProcessingOperation", "AverageLuminanceExtractor"]
+- ["P8GPUImage24ImageProcessingOperation", "LuminanceThreshold"]
+- !private ["P8GPUImage24ImageProcessingOperation", "averageLuminance"]
+- !private ["P8GPUImage24ImageProcessingOperation", "configureGroup"]
+- !private ["P8GPUImage24ImageProcessingOperation", "extractedLuminanceCallback"]
+- ["P8GPUImage24ImageProcessingOperation", "init"]
+- !private ["P8GPUImage24ImageProcessingOperation", "luminanceThreshold"]
+- !private ["P8GPUImage24ImageProcessingOperation", "threshold"]
+- !private ["P8GPUImage24ImageProcessingOperation", "thresholdMultiplier"]
+- ["P8GPUImage24ImageProcessingOperation", ""]
+- !private ["C8GPUImage10ImageRelay", "deinit"]
+- ["P8GPUImage11ImageSource", "AverageLuminanceExtractor"]
+- ["P8GPUImage11ImageSource", "LuminanceThreshold"]
+- !private ["P8GPUImage11ImageSource", "averageLuminance"]
+- !private ["P8GPUImage11ImageSource", "configureGroup"]
+- !private ["P8GPUImage11ImageSource", "extractedLuminanceCallback"]
+- ["P8GPUImage11ImageSource", "init"]
+- !private ["P8GPUImage11ImageSource", "luminanceThreshold"]
+- !private ["P8GPUImage11ImageSource", "threshold"]
+- !private ["P8GPUImage11ImageSource", "thresholdMultiplier"]
+- ["P8GPUImage11ImageSource", ""]
+- !private ["C8GPUImage18LuminanceThreshold", "deinit"]
+- ["C8GPUImage18LuminanceThreshold", "init"]
+- !private ["C8GPUImage18LuminanceThreshold", "threshold"]
+- ["C8GPUImage14OperationGroup", "AverageLuminanceExtractor"]
+- ["C8GPUImage14OperationGroup", "Float"]
+- ["C8GPUImage14OperationGroup", "LuminanceThreshold"]
+- ["C8GPUImage14OperationGroup", "averageLuminance"]
+- !private ["C8GPUImage14OperationGroup", "configureGroup"]
+- ["C8GPUImage14OperationGroup", "init"]
+- ["C8GPUImage14OperationGroup", "luminanceThreshold"]
+- ["C8GPUImage14OperationGroup", "thresholdMultiplier"]
+- ["C8GPUImage14OperationGroup", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8GPUImage25AverageLuminanceExtractor"
+- "C8GPUImage25AverageLuminanceThreshold"
+- !private "C8GPUImage14BasicOperation"
+- "P8GPUImage13ImageConsumer"
+- "P8GPUImage24ImageProcessingOperation"
+- !private "C8GPUImage10ImageRelay"
+- "P8GPUImage11ImageSource"
+- "C8GPUImage18LuminanceThreshold"
+- "C8GPUImage14OperationGroup"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "4569b0391188d2cd39de1e452f36085d"

@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GaussianBlur"
+- "sigmaAndDownsamplingForBlurRadius"
+- "pixelRadiusForBlurSigma"
+- "standardGaussianWeightsForRadius"
+- "vertexShaderForStandardGaussianBlurOfRadius"
+- "fragmentShaderForStandardGaussianBlurOfRadius"
+- "optimizedGaussianOffsetsForRadius"
+- "vertexShaderForOptimizedGaussianBlurOfRadius"
+- "fragmentShaderForOptimizedGaussianBlurOfRadius"
+provides-nominal:
+- "C8GPUImage12GaussianBlur"
+provides-member:
+- ["C8GPUImage12GaussianBlur", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "GaussianBlur"
+- !private "Int"
+- !private "OneInputVertexShader"
+- !private "PassthroughFragmentShader"
+- "String"
+- "StringLiteralType"
+- "TwoStageOperation"
+- "UInt"
+- !private "crashOnShaderCompileFailure"
+- !private "exp"
+- !private "floor"
+- "fragmentShaderForOptimizedGaussianBlurOfRadius"
+- "fragmentShaderForStandardGaussianBlurOfRadius"
+- !private "log"
+- !private "min"
+- "optimizedGaussianOffsetsForRadius"
+- "pixelRadiusForBlurSigma"
+- !private "pow"
+- !private "round"
+- !private "sharedImageProcessingContext"
+- "sigmaAndDownsamplingForBlurRadius"
+- !private "sqrt"
+- "standardGaussianWeightsForRadius"
+- "vertexShaderForOptimizedGaussianBlurOfRadius"
+- "vertexShaderForStandardGaussianBlurOfRadius"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "pi"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "blurRadiusInPixels"]
+- !private ["Ps9AnyObject", "crashOnShaderCompileFailure"]
+- !private ["Ps9AnyObject", "downsamplingFactor"]
+- !private ["Ps9AnyObject", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "overrideDownsamplingOptimization"]
+- !private ["Ps9AnyObject", "pixelRadiusForBlurSigma"]
+- !private ["Ps9AnyObject", "programForVertexShader"]
+- !private ["Ps9AnyObject", "round"]
+- !private ["Ps9AnyObject", "runOperationAsynchronously"]
+- !private ["Ps9AnyObject", "shader"]
+- !private ["Ps9AnyObject", "sharedImageProcessingContext"]
+- !private ["Ps9AnyObject", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["Ps9AnyObject", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["C8GPUImage14BasicOperation", "Double"]
+- ["C8GPUImage14BasicOperation", "Float"]
+- ["C8GPUImage14BasicOperation", "blurRadiusInPixels"]
+- !private ["C8GPUImage14BasicOperation", "crashOnShaderCompileFailure"]
+- !private ["C8GPUImage14BasicOperation", "downsamplingFactor"]
+- !private ["C8GPUImage14BasicOperation", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- ["C8GPUImage14BasicOperation", "init"]
+- !private ["C8GPUImage14BasicOperation", "overrideDownsamplingOptimization"]
+- !private ["C8GPUImage14BasicOperation", "pixelRadiusForBlurSigma"]
+- !private ["C8GPUImage14BasicOperation", "round"]
+- !private ["C8GPUImage14BasicOperation", "shader"]
+- !private ["C8GPUImage14BasicOperation", "sharedImageProcessingContext"]
+- !private ["C8GPUImage14BasicOperation", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["C8GPUImage14BasicOperation", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "pi"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "map"]
+- !private ["Ps7CVarArg", "pi"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "pi"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "pi"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Sd", "init"]
+- !private ["Sd", "pi"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "pi"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "pi"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "pi"]
+- !private ["C8GPUImage12GaussianBlur", "Double"]
+- ["C8GPUImage12GaussianBlur", "Float"]
+- ["C8GPUImage12GaussianBlur", "blurRadiusInPixels"]
+- !private ["C8GPUImage12GaussianBlur", "crashOnShaderCompileFailure"]
+- ["C8GPUImage12GaussianBlur", "deinit"]
+- !private ["C8GPUImage12GaussianBlur", "downsamplingFactor"]
+- !private ["C8GPUImage12GaussianBlur", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- ["C8GPUImage12GaussianBlur", "init"]
+- !private ["C8GPUImage12GaussianBlur", "overrideDownsamplingOptimization"]
+- !private ["C8GPUImage12GaussianBlur", "pixelRadiusForBlurSigma"]
+- !private ["C8GPUImage12GaussianBlur", "round"]
+- !private ["C8GPUImage12GaussianBlur", "shader"]
+- !private ["C8GPUImage12GaussianBlur", "sharedImageProcessingContext"]
+- !private ["C8GPUImage12GaussianBlur", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["C8GPUImage12GaussianBlur", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "pi"]
+- !private ["P8GPUImage13ImageConsumer", "Double"]
+- !private ["P8GPUImage13ImageConsumer", "blurRadiusInPixels"]
+- !private ["P8GPUImage13ImageConsumer", "crashOnShaderCompileFailure"]
+- !private ["P8GPUImage13ImageConsumer", "downsamplingFactor"]
+- !private ["P8GPUImage13ImageConsumer", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["P8GPUImage13ImageConsumer", "init"]
+- !private ["P8GPUImage13ImageConsumer", "overrideDownsamplingOptimization"]
+- !private ["P8GPUImage13ImageConsumer", "pixelRadiusForBlurSigma"]
+- !private ["P8GPUImage13ImageConsumer", "round"]
+- !private ["P8GPUImage13ImageConsumer", "shader"]
+- !private ["P8GPUImage13ImageConsumer", "sharedImageProcessingContext"]
+- !private ["P8GPUImage13ImageConsumer", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["P8GPUImage13ImageConsumer", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- ["P8GPUImage13ImageConsumer", ""]
+- !private ["P8GPUImage24ImageProcessingOperation", "Double"]
+- !private ["P8GPUImage24ImageProcessingOperation", "blurRadiusInPixels"]
+- !private ["P8GPUImage24ImageProcessingOperation", "crashOnShaderCompileFailure"]
+- !private ["P8GPUImage24ImageProcessingOperation", "downsamplingFactor"]
+- !private ["P8GPUImage24ImageProcessingOperation", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["P8GPUImage24ImageProcessingOperation", "init"]
+- !private ["P8GPUImage24ImageProcessingOperation", "overrideDownsamplingOptimization"]
+- !private ["P8GPUImage24ImageProcessingOperation", "pixelRadiusForBlurSigma"]
+- !private ["P8GPUImage24ImageProcessingOperation", "round"]
+- !private ["P8GPUImage24ImageProcessingOperation", "shader"]
+- !private ["P8GPUImage24ImageProcessingOperation", "sharedImageProcessingContext"]
+- !private ["P8GPUImage24ImageProcessingOperation", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["P8GPUImage24ImageProcessingOperation", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- ["P8GPUImage24ImageProcessingOperation", ""]
+- !private ["P8GPUImage11ImageSource", "Double"]
+- !private ["P8GPUImage11ImageSource", "blurRadiusInPixels"]
+- !private ["P8GPUImage11ImageSource", "crashOnShaderCompileFailure"]
+- !private ["P8GPUImage11ImageSource", "downsamplingFactor"]
+- !private ["P8GPUImage11ImageSource", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- !private ["P8GPUImage11ImageSource", "init"]
+- !private ["P8GPUImage11ImageSource", "overrideDownsamplingOptimization"]
+- !private ["P8GPUImage11ImageSource", "pixelRadiusForBlurSigma"]
+- !private ["P8GPUImage11ImageSource", "round"]
+- !private ["P8GPUImage11ImageSource", "shader"]
+- !private ["P8GPUImage11ImageSource", "sharedImageProcessingContext"]
+- !private ["P8GPUImage11ImageSource", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["P8GPUImage11ImageSource", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- ["P8GPUImage11ImageSource", ""]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "pi"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C8GPUImage13OpenGLContext", "deinit"]
+- !private ["C8GPUImage13OpenGLContext", "programForVertexShader"]
+- !private ["C8GPUImage13OpenGLContext", "runOperationAsynchronously"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["P8GPUImage14SerialDispatch", "programForVertexShader"]
+- !private ["P8GPUImage14SerialDispatch", "runOperationAsynchronously"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "pi"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pi"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C8GPUImage17TwoStageOperation", "Double"]
+- ["C8GPUImage17TwoStageOperation", "Float"]
+- ["C8GPUImage17TwoStageOperation", "blurRadiusInPixels"]
+- !private ["C8GPUImage17TwoStageOperation", "crashOnShaderCompileFailure"]
+- !private ["C8GPUImage17TwoStageOperation", "downsamplingFactor"]
+- !private ["C8GPUImage17TwoStageOperation", "fragmentShaderForOptimizedGaussianBlurOfRadius"]
+- ["C8GPUImage17TwoStageOperation", "init"]
+- !private ["C8GPUImage17TwoStageOperation", "overrideDownsamplingOptimization"]
+- !private ["C8GPUImage17TwoStageOperation", "pixelRadiusForBlurSigma"]
+- !private ["C8GPUImage17TwoStageOperation", "round"]
+- !private ["C8GPUImage17TwoStageOperation", "shader"]
+- !private ["C8GPUImage17TwoStageOperation", "sharedImageProcessingContext"]
+- !private ["C8GPUImage17TwoStageOperation", "sigmaAndDownsamplingForBlurRadius"]
+- !private ["C8GPUImage17TwoStageOperation", "vertexShaderForOptimizedGaussianBlurOfRadius"]
+- ["C8GPUImage17TwoStageOperation", ""]
+- !private ["Su", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "pi"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "pi"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "pi"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "map"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "pi"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "map"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pi"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- "C8GPUImage14BasicOperation"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "C8GPUImage12GaussianBlur"
+- !private "Ps8Hashable"
+- "P8GPUImage13ImageConsumer"
+- "P8GPUImage24ImageProcessingOperation"
+- "P8GPUImage11ImageSource"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C8GPUImage13OpenGLContext"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "P8GPUImage14SerialDispatch"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C8GPUImage17TwoStageOperation"
+- !private "Su"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "3cf6ea0f40dea664835230c3374e1dd7"

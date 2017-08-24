@@ -1,0 +1,567 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PictureFileFormat"
+- "PictureOutput"
+- "dataProviderReleaseCallback"
+- "=="
+provides-nominal:
+- "O8GPUImage17PictureFileFormat"
+- "C8GPUImage13PictureOutput"
+provides-member:
+- ["O8GPUImage17PictureFileFormat", ""]
+- ["C8GPUImage13PictureOutput", ""]
+- ["P8GPUImage11ImageSource", ""]
+- ["CSo7UIImage", ""]
+- ["P8GPUImage11ImageSource", "saveNextFrameToURL"]
+- ["CSo7UIImage", "filterWithOperation"]
+- ["CSo7UIImage", "filterWithPipeline"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "-->"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CGBitmapInfo"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGDataProvider"
+- "CGImage"
+- !private "Color"
+- "Data"
+- "Framebuffer"
+- !private "GL_RGBA"
+- !private "GL_UNSIGNED_BYTE"
+- !private "GLenum"
+- "ImageConsumer"
+- "ImageProcessingOperation"
+- "ImageSource"
+- "Int"
+- "PictureFileFormat"
+- "PictureInput"
+- "PictureOutput"
+- !private "ShaderUniformSettings"
+- "SourceContainer"
+- "StringLiteralType"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- !private "UIImagePNGRepresentation"
+- "UInt"
+- !private "UInt8"
+- "URL"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- "UnsafeRawPointer"
+- !private "clearFramebufferWithColor"
+- "dataProviderReleaseCallback"
+- !private "fatalError"
+- !private "glReadPixels"
+- !private "print"
+- !private "renderQuadWithShader"
+- !private "sharedImageProcessingContext"
+depends-member:
+- !private ["Ps9AnyObject", "CGBitmapInfo"]
+- !private ["Ps9AnyObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9AnyObject", "CGDataProvider"]
+- !private ["Ps9AnyObject", "CGImage"]
+- !private ["Ps9AnyObject", "Color"]
+- !private ["Ps9AnyObject", "GL_RGBA"]
+- !private ["Ps9AnyObject", "GL_UNSIGNED_BYTE"]
+- !private ["Ps9AnyObject", "GLenum"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "PictureInput"]
+- !private ["Ps9AnyObject", "PictureOutput"]
+- !private ["Ps9AnyObject", "ShaderUniformSettings"]
+- ["Ps9AnyObject", "SourceContainer"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIImageJPEGRepresentation"]
+- !private ["Ps9AnyObject", "UIImagePNGRepresentation"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "activateFramebufferForRendering"]
+- !private ["Ps9AnyObject", "cgImageFromFramebuffer"]
+- !private ["Ps9AnyObject", "clearFramebufferWithColor"]
+- !private ["Ps9AnyObject", "dataProviderReleaseCallback"]
+- !private ["Ps9AnyObject", "encodedImageAvailableCallback"]
+- !private ["Ps9AnyObject", "encodedImageFormat"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "filterWithPipeline"]
+- !private ["Ps9AnyObject", "framebufferCache"]
+- !private ["Ps9AnyObject", "glReadPixels"]
+- !private ["Ps9AnyObject", "imageAvailableCallback"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keepImageAroundForSynchronousCapture"]
+- !private ["Ps9AnyObject", "lock"]
+- ["Ps9AnyObject", "maximumInputs"]
+- ["Ps9AnyObject", "newFramebufferAvailable"]
+- !private ["Ps9AnyObject", "onlyCaptureNextFrame"]
+- !private ["Ps9AnyObject", "orientation"]
+- !private ["Ps9AnyObject", "passthroughShader"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "processImage"]
+- !private ["Ps9AnyObject", "renderQuadWithShader"]
+- !private ["Ps9AnyObject", "requestFramebufferWithProperties"]
+- !private ["Ps9AnyObject", "runOperationSynchronously"]
+- !private ["Ps9AnyObject", "saveNextFrameToURL"]
+- !private ["Ps9AnyObject", "sharedImageProcessingContext"]
+- !private ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", "sources"]
+- !private ["Ps9AnyObject", "standardImageVBO"]
+- !private ["Ps9AnyObject", "storedFramebuffer"]
+- !private ["Ps9AnyObject", "texturePropertiesForOutputRotation"]
+- !private ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "write"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC12CGBitmapInfo", "init"]
+- !private ["OSC22CGColorRenderingIntent", "defaultIntent"]
+- !private ["CSo14CGDataProvider", "init"]
+- !private ["CSo7CGImage", "init"]
+- !private ["Ps7CVarArg", "PictureInput"]
+- !private ["Ps7CVarArg", "PictureOutput"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "filterWithPipeline"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "write"]
+- !private ["V8GPUImage5Color", "red"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "PictureInput"]
+- !private ["Ps28CustomDebugStringConvertible", "PictureOutput"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "filterWithPipeline"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "write"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "write"]
+- !private ["Ps23CustomStringConvertible", "PictureInput"]
+- !private ["Ps23CustomStringConvertible", "PictureOutput"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "filterWithPipeline"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- !private ["V10Foundation4Data", "write"]
+- !private ["Ps9Equatable", "PictureInput"]
+- !private ["Ps9Equatable", "PictureOutput"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "atomic"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "defaultIntent"]
+- !private ["Ps9Equatable", "filterWithPipeline"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "jpeg"]
+- !private ["Ps9Equatable", "noRotation"]
+- ["Ps9Equatable", "png"]
+- !private ["Ps9Equatable", "up"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "atomic"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C8GPUImage11Framebuffer", "activateFramebufferForRendering"]
+- !private ["C8GPUImage11Framebuffer", "lock"]
+- !private ["C8GPUImage11Framebuffer", "orientation"]
+- !private ["C8GPUImage11Framebuffer", "size"]
+- !private ["C8GPUImage11Framebuffer", "texturePropertiesForOutputRotation"]
+- !private ["C8GPUImage11Framebuffer", "unlock"]
+- !private ["C8GPUImage16FramebufferCache", "requestFramebufferWithProperties"]
+- !private ["V8GPUImage6GLSize", "height"]
+- !private ["V8GPUImage6GLSize", "width"]
+- !private ["Ps8Hashable", "PictureInput"]
+- !private ["Ps8Hashable", "PictureOutput"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "defaultIntent"]
+- !private ["Ps8Hashable", "filterWithPipeline"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "jpeg"]
+- !private ["Ps8Hashable", "noRotation"]
+- ["Ps8Hashable", "png"]
+- !private ["Ps8Hashable", "up"]
+- !private ["Ps8Hashable", "write"]
+- ["Ps8Hashable", ""]
+- !private ["P8GPUImage13ImageConsumer", "CGBitmapInfo"]
+- !private ["P8GPUImage13ImageConsumer", "CGColorSpaceCreateDeviceRGB"]
+- !private ["P8GPUImage13ImageConsumer", "CGDataProvider"]
+- !private ["P8GPUImage13ImageConsumer", "CGImage"]
+- !private ["P8GPUImage13ImageConsumer", "Color"]
+- !private ["P8GPUImage13ImageConsumer", "GL_RGBA"]
+- !private ["P8GPUImage13ImageConsumer", "GL_UNSIGNED_BYTE"]
+- !private ["P8GPUImage13ImageConsumer", "GLenum"]
+- !private ["P8GPUImage13ImageConsumer", "Int"]
+- !private ["P8GPUImage13ImageConsumer", "ShaderUniformSettings"]
+- ["P8GPUImage13ImageConsumer", "SourceContainer"]
+- !private ["P8GPUImage13ImageConsumer", "UIImage"]
+- !private ["P8GPUImage13ImageConsumer", "UIImageJPEGRepresentation"]
+- !private ["P8GPUImage13ImageConsumer", "UIImagePNGRepresentation"]
+- !private ["P8GPUImage13ImageConsumer", "UnsafeMutablePointer"]
+- !private ["P8GPUImage13ImageConsumer", "cgImageFromFramebuffer"]
+- !private ["P8GPUImage13ImageConsumer", "clearFramebufferWithColor"]
+- !private ["P8GPUImage13ImageConsumer", "dataProviderReleaseCallback"]
+- !private ["P8GPUImage13ImageConsumer", "encodedImageAvailableCallback"]
+- !private ["P8GPUImage13ImageConsumer", "encodedImageFormat"]
+- !private ["P8GPUImage13ImageConsumer", "fatalError"]
+- !private ["P8GPUImage13ImageConsumer", "glReadPixels"]
+- !private ["P8GPUImage13ImageConsumer", "imageAvailableCallback"]
+- !private ["P8GPUImage13ImageConsumer", "init"]
+- !private ["P8GPUImage13ImageConsumer", "keepImageAroundForSynchronousCapture"]
+- ["P8GPUImage13ImageConsumer", "maximumInputs"]
+- ["P8GPUImage13ImageConsumer", "newFramebufferAvailable"]
+- !private ["P8GPUImage13ImageConsumer", "onlyCaptureNextFrame"]
+- !private ["P8GPUImage13ImageConsumer", "print"]
+- !private ["P8GPUImage13ImageConsumer", "renderQuadWithShader"]
+- !private ["P8GPUImage13ImageConsumer", "saveNextFrameToURL"]
+- !private ["P8GPUImage13ImageConsumer", "sharedImageProcessingContext"]
+- ["P8GPUImage13ImageConsumer", "sources"]
+- !private ["P8GPUImage13ImageConsumer", "storedFramebuffer"]
+- !private ["P8GPUImage13ImageConsumer", "url"]
+- ["P8GPUImage13ImageConsumer", ""]
+- ["P8GPUImage11ImageSource", "PictureFileFormat"]
+- !private ["P8GPUImage11ImageSource", "PictureOutput"]
+- ["P8GPUImage11ImageSource", "URL"]
+- !private ["P8GPUImage11ImageSource", "init"]
+- !private ["P8GPUImage11ImageSource", "processImage"]
+- ["P8GPUImage11ImageSource", "saveNextFrameToURL"]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "write"]
+- !private ["PSo8NSCoding", "PictureInput"]
+- !private ["PSo8NSCoding", "PictureOutput"]
+- !private ["PSo8NSCoding", "filterWithPipeline"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "ImageProcessingOperation"]
+- ["CSo8NSObject", "PictureInput"]
+- ["CSo8NSObject", "PictureOutput"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "filterWithOperation"]
+- ["CSo8NSObject", "filterWithPipeline"]
+- !private ["PSo16NSObjectProtocol", "PictureInput"]
+- !private ["PSo16NSObjectProtocol", "PictureOutput"]
+- !private ["PSo16NSObjectProtocol", "filterWithPipeline"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "PictureInput"]
+- !private ["PSo14NSSecureCoding", "PictureOutput"]
+- !private ["PSo14NSSecureCoding", "filterWithPipeline"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C8GPUImage13OpenGLContext", "deinit"]
+- !private ["C8GPUImage13OpenGLContext", "framebufferCache"]
+- !private ["C8GPUImage13OpenGLContext", "passthroughShader"]
+- !private ["C8GPUImage13OpenGLContext", "runOperationSynchronously"]
+- !private ["C8GPUImage13OpenGLContext", "standardImageVBO"]
+- !private ["Ps9OptionSet", "atomic"]
+- !private ["Ps9OptionSet", "init"]
+- ["O8GPUImage17PictureFileFormat", "=="]
+- ["O8GPUImage17PictureFileFormat", "_toAnyHashable"]
+- ["O8GPUImage17PictureFileFormat", "deinit"]
+- ["O8GPUImage17PictureFileFormat", "hashValue"]
+- ["O8GPUImage17PictureFileFormat", "jpeg"]
+- ["O8GPUImage17PictureFileFormat", "png"]
+- !private ["C8GPUImage12PictureInput", "deinit"]
+- !private ["C8GPUImage12PictureInput", "init"]
+- !private ["C8GPUImage12PictureInput", "processImage"]
+- ["C8GPUImage13PictureOutput", "Bool"]
+- !private ["C8GPUImage13PictureOutput", "CGBitmapInfo"]
+- !private ["C8GPUImage13PictureOutput", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C8GPUImage13PictureOutput", "CGDataProvider"]
+- ["C8GPUImage13PictureOutput", "CGImage"]
+- !private ["C8GPUImage13PictureOutput", "Color"]
+- ["C8GPUImage13PictureOutput", "Data"]
+- ["C8GPUImage13PictureOutput", "Framebuffer"]
+- !private ["C8GPUImage13PictureOutput", "GL_RGBA"]
+- !private ["C8GPUImage13PictureOutput", "GL_UNSIGNED_BYTE"]
+- !private ["C8GPUImage13PictureOutput", "GLenum"]
+- !private ["C8GPUImage13PictureOutput", "Int"]
+- ["C8GPUImage13PictureOutput", "PictureFileFormat"]
+- !private ["C8GPUImage13PictureOutput", "ShaderUniformSettings"]
+- ["C8GPUImage13PictureOutput", "SourceContainer"]
+- ["C8GPUImage13PictureOutput", "UIImage"]
+- !private ["C8GPUImage13PictureOutput", "UIImageJPEGRepresentation"]
+- !private ["C8GPUImage13PictureOutput", "UIImagePNGRepresentation"]
+- ["C8GPUImage13PictureOutput", "UInt"]
+- !private ["C8GPUImage13PictureOutput", "UInt8"]
+- ["C8GPUImage13PictureOutput", "URL"]
+- !private ["C8GPUImage13PictureOutput", "UnsafeMutablePointer"]
+- ["C8GPUImage13PictureOutput", "cgImageFromFramebuffer"]
+- !private ["C8GPUImage13PictureOutput", "clearFramebufferWithColor"]
+- !private ["C8GPUImage13PictureOutput", "dataProviderReleaseCallback"]
+- ["C8GPUImage13PictureOutput", "deinit"]
+- ["C8GPUImage13PictureOutput", "encodedImageAvailableCallback"]
+- ["C8GPUImage13PictureOutput", "encodedImageFormat"]
+- !private ["C8GPUImage13PictureOutput", "fatalError"]
+- !private ["C8GPUImage13PictureOutput", "glReadPixels"]
+- ["C8GPUImage13PictureOutput", "imageAvailableCallback"]
+- ["C8GPUImage13PictureOutput", "init"]
+- ["C8GPUImage13PictureOutput", "keepImageAroundForSynchronousCapture"]
+- ["C8GPUImage13PictureOutput", "maximumInputs"]
+- ["C8GPUImage13PictureOutput", "newFramebufferAvailable"]
+- ["C8GPUImage13PictureOutput", "onlyCaptureNextFrame"]
+- !private ["C8GPUImage13PictureOutput", "print"]
+- !private ["C8GPUImage13PictureOutput", "renderQuadWithShader"]
+- ["C8GPUImage13PictureOutput", "saveNextFrameToURL"]
+- !private ["C8GPUImage13PictureOutput", "sharedImageProcessingContext"]
+- ["C8GPUImage13PictureOutput", "sources"]
+- ["C8GPUImage13PictureOutput", "storedFramebuffer"]
+- ["C8GPUImage13PictureOutput", "synchronousImageCapture"]
+- ["C8GPUImage13PictureOutput", "url"]
+- !private ["Ps22RandomAccessCollection", "write"]
+- !private ["Ps26RangeReplaceableCollection", "write"]
+- !private ["Ps16RawRepresentable", "atomic"]
+- !private ["Ps16RawRepresentable", "defaultIntent"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "up"]
+- !private ["P10Foundation20ReferenceConvertible", "write"]
+- !private ["O8GPUImage8Rotation", "noRotation"]
+- !private ["Ps8Sequence", "write"]
+- !private ["P8GPUImage14SerialDispatch", "framebufferCache"]
+- !private ["P8GPUImage14SerialDispatch", "passthroughShader"]
+- !private ["P8GPUImage14SerialDispatch", "runOperationSynchronously"]
+- !private ["P8GPUImage14SerialDispatch", "standardImageVBO"]
+- !private ["Ps10SetAlgebra", "atomic"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["V8GPUImage21ShaderUniformSettings", "init"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- ["C8GPUImage15SourceContainer", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "PictureInput"]
+- !private ["PSo29UIAccessibilityIdentification", "PictureOutput"]
+- !private ["PSo29UIAccessibilityIdentification", "filterWithPipeline"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["CSo7UIImage", "ImageProcessingOperation"]
+- ["CSo7UIImage", "PictureInput"]
+- ["CSo7UIImage", "PictureOutput"]
+- ["CSo7UIImage", "UIImage"]
+- ["CSo7UIImage", "filterWithOperation"]
+- ["CSo7UIImage", "filterWithPipeline"]
+- !private ["CSo7UIImage", "init"]
+- !private ["OSC18UIImageOrientation", "up"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Sp", "allocate"]
+- !private ["SV", "deallocate"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["VCSo6NSData14WritingOptions", "atomic"]
+- !private ["Ps23_BidirectionalIndexable", "write"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "PictureInput"]
+- !private ["Ps26_ExpressibleByImageLiteral", "PictureOutput"]
+- !private ["Ps26_ExpressibleByImageLiteral", "filterWithPipeline"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "PictureInput"]
+- !private ["Ps9_Hashable", "PictureOutput"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "defaultIntent"]
+- !private ["Ps9_Hashable", "filterWithPipeline"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "jpeg"]
+- !private ["Ps9_Hashable", "noRotation"]
+- ["Ps9_Hashable", "png"]
+- !private ["Ps9_Hashable", "up"]
+- !private ["Ps9_Hashable", "write"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "write"]
+- !private ["Ps14_IndexableBase", "write"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "write"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "write"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps22_RandomAccessIndexable", "write"]
+- !private ["Ps26_RangeReplaceableIndexable", "write"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "VSC12CGBitmapInfo"
+- !private "OSC22CGColorRenderingIntent"
+- !private "CSo14CGDataProvider"
+- !private "CSo7CGImage"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "V8GPUImage5Color"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C8GPUImage11Framebuffer"
+- !private "C8GPUImage16FramebufferCache"
+- !private "V8GPUImage6GLSize"
+- "Ps8Hashable"
+- "P8GPUImage13ImageConsumer"
+- "P8GPUImage11ImageSource"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C8GPUImage13OpenGLContext"
+- !private "Ps9OptionSet"
+- "O8GPUImage17PictureFileFormat"
+- !private "C8GPUImage12PictureInput"
+- "C8GPUImage13PictureOutput"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "O8GPUImage8Rotation"
+- !private "Ps8Sequence"
+- !private "P8GPUImage14SerialDispatch"
+- !private "Ps10SetAlgebra"
+- !private "V8GPUImage21ShaderUniformSettings"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C8GPUImage15SourceContainer"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIImage"
+- !private "OSC18UIImageOrientation"
+- !private "Vs6UInt32"
+- !private "Sp"
+- !private "SV"
+- !private "Ps15UnsignedInteger"
+- !private "VCSo6NSData14WritingOptions"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e320aa95156306044a4296c0975b61fe"

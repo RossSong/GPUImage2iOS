@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "iOSBlur"
+provides-nominal:
+- "C8GPUImage7iOSBlur"
+provides-member:
+- ["C8GPUImage7iOSBlur", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-->"
+- "AssignmentPrecedence"
+- "Float"
+- "FloatLiteralType"
+- "GaussianBlur"
+- "LuminanceRangeReduction"
+- "OperationGroup"
+- "SaturationAdjustment"
+- "iOSBlur"
+depends-member:
+- ["Ps9AnyObject", "GaussianBlur"]
+- ["Ps9AnyObject", "LuminanceRangeReduction"]
+- ["Ps9AnyObject", "SaturationAdjustment"]
+- !private ["Ps9AnyObject", "blurRadiusInPixels"]
+- !private ["Ps9AnyObject", "configureGroup"]
+- !private ["Ps9AnyObject", "gaussianBlur"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "luminanceRange"]
+- !private ["Ps9AnyObject", "rangeReductionFactor"]
+- !private ["Ps9AnyObject", "saturation"]
+- !private ["Ps9AnyObject", "saturationFilter"]
+- ["Ps9AnyObject", ""]
+- !private ["C8GPUImage14BasicOperation", "blurRadiusInPixels"]
+- !private ["C8GPUImage14BasicOperation", "rangeReductionFactor"]
+- !private ["C8GPUImage14BasicOperation", "saturation"]
+- !private ["C8GPUImage12GaussianBlur", "blurRadiusInPixels"]
+- !private ["C8GPUImage12GaussianBlur", "deinit"]
+- ["C8GPUImage12GaussianBlur", "init"]
+- ["P8GPUImage13ImageConsumer", "GaussianBlur"]
+- ["P8GPUImage13ImageConsumer", "LuminanceRangeReduction"]
+- ["P8GPUImage13ImageConsumer", "SaturationAdjustment"]
+- !private ["P8GPUImage13ImageConsumer", "blurRadiusInPixels"]
+- !private ["P8GPUImage13ImageConsumer", "configureGroup"]
+- !private ["P8GPUImage13ImageConsumer", "gaussianBlur"]
+- ["P8GPUImage13ImageConsumer", "init"]
+- !private ["P8GPUImage13ImageConsumer", "luminanceRange"]
+- !private ["P8GPUImage13ImageConsumer", "rangeReductionFactor"]
+- !private ["P8GPUImage13ImageConsumer", "saturation"]
+- !private ["P8GPUImage13ImageConsumer", "saturationFilter"]
+- ["P8GPUImage13ImageConsumer", ""]
+- ["P8GPUImage24ImageProcessingOperation", "GaussianBlur"]
+- ["P8GPUImage24ImageProcessingOperation", "LuminanceRangeReduction"]
+- ["P8GPUImage24ImageProcessingOperation", "SaturationAdjustment"]
+- !private ["P8GPUImage24ImageProcessingOperation", "blurRadiusInPixels"]
+- !private ["P8GPUImage24ImageProcessingOperation", "configureGroup"]
+- !private ["P8GPUImage24ImageProcessingOperation", "gaussianBlur"]
+- ["P8GPUImage24ImageProcessingOperation", "init"]
+- !private ["P8GPUImage24ImageProcessingOperation", "luminanceRange"]
+- !private ["P8GPUImage24ImageProcessingOperation", "rangeReductionFactor"]
+- !private ["P8GPUImage24ImageProcessingOperation", "saturation"]
+- !private ["P8GPUImage24ImageProcessingOperation", "saturationFilter"]
+- ["P8GPUImage24ImageProcessingOperation", ""]
+- !private ["C8GPUImage10ImageRelay", "deinit"]
+- ["P8GPUImage11ImageSource", "GaussianBlur"]
+- ["P8GPUImage11ImageSource", "LuminanceRangeReduction"]
+- ["P8GPUImage11ImageSource", "SaturationAdjustment"]
+- !private ["P8GPUImage11ImageSource", "blurRadiusInPixels"]
+- !private ["P8GPUImage11ImageSource", "configureGroup"]
+- !private ["P8GPUImage11ImageSource", "gaussianBlur"]
+- ["P8GPUImage11ImageSource", "init"]
+- !private ["P8GPUImage11ImageSource", "luminanceRange"]
+- !private ["P8GPUImage11ImageSource", "rangeReductionFactor"]
+- !private ["P8GPUImage11ImageSource", "saturation"]
+- !private ["P8GPUImage11ImageSource", "saturationFilter"]
+- ["P8GPUImage11ImageSource", ""]
+- !private ["C8GPUImage23LuminanceRangeReduction", "deinit"]
+- ["C8GPUImage23LuminanceRangeReduction", "init"]
+- !private ["C8GPUImage23LuminanceRangeReduction", "rangeReductionFactor"]
+- ["C8GPUImage14OperationGroup", "Float"]
+- ["C8GPUImage14OperationGroup", "GaussianBlur"]
+- ["C8GPUImage14OperationGroup", "LuminanceRangeReduction"]
+- ["C8GPUImage14OperationGroup", "SaturationAdjustment"]
+- ["C8GPUImage14OperationGroup", "blurRadiusInPixels"]
+- !private ["C8GPUImage14OperationGroup", "configureGroup"]
+- ["C8GPUImage14OperationGroup", "gaussianBlur"]
+- ["C8GPUImage14OperationGroup", "init"]
+- ["C8GPUImage14OperationGroup", "luminanceRange"]
+- ["C8GPUImage14OperationGroup", "rangeReductionFactor"]
+- ["C8GPUImage14OperationGroup", "saturation"]
+- ["C8GPUImage14OperationGroup", "saturationFilter"]
+- ["C8GPUImage14OperationGroup", ""]
+- !private ["C8GPUImage20SaturationAdjustment", "deinit"]
+- ["C8GPUImage20SaturationAdjustment", "init"]
+- !private ["C8GPUImage20SaturationAdjustment", "saturation"]
+- !private ["C8GPUImage17TwoStageOperation", "blurRadiusInPixels"]
+- ["C8GPUImage7iOSBlur", "Float"]
+- ["C8GPUImage7iOSBlur", "GaussianBlur"]
+- ["C8GPUImage7iOSBlur", "LuminanceRangeReduction"]
+- ["C8GPUImage7iOSBlur", "SaturationAdjustment"]
+- ["C8GPUImage7iOSBlur", "blurRadiusInPixels"]
+- !private ["C8GPUImage7iOSBlur", "configureGroup"]
+- ["C8GPUImage7iOSBlur", "deinit"]
+- ["C8GPUImage7iOSBlur", "gaussianBlur"]
+- ["C8GPUImage7iOSBlur", "init"]
+- ["C8GPUImage7iOSBlur", "luminanceRange"]
+- ["C8GPUImage7iOSBlur", "rangeReductionFactor"]
+- ["C8GPUImage7iOSBlur", "saturation"]
+- ["C8GPUImage7iOSBlur", "saturationFilter"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C8GPUImage14BasicOperation"
+- "C8GPUImage12GaussianBlur"
+- "P8GPUImage13ImageConsumer"
+- "P8GPUImage24ImageProcessingOperation"
+- !private "C8GPUImage10ImageRelay"
+- "P8GPUImage11ImageSource"
+- "C8GPUImage23LuminanceRangeReduction"
+- "C8GPUImage14OperationGroup"
+- "C8GPUImage20SaturationAdjustment"
+- !private "C8GPUImage17TwoStageOperation"
+- "C8GPUImage7iOSBlur"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1f2a5d1c089ba7fd72394b04cb1872f4"

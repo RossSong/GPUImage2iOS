@@ -1,0 +1,3 @@
+framework module GPUImage {
+    header "GPUImage-Swift.h"
+}
